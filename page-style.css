@@ -1,0 +1,97 @@
+body{
+    background-color: #dfe3ee;
+}
+h1{
+    color: #1877f2;;
+    font-family:sans-serif;
+    font-size:40px;
+}
+p{
+    font-family:sans-serif;
+    font-size: 18px;
+    font-weight: bold;  
+}
+ .text{
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 7px;
+    position: absolute;
+ }
+ 
+ .text-forms{
+    box-shadow: 1px 1px 10px black ;
+    background-color: white;
+    height:250px;
+    width: 300px;
+    position:static;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    margin-left: 55%;
+    margin-top: 7%;
+}
+ .num-mail{
+    width:85%;
+    height: 10%;
+    border-radius: 5px;
+    margin-left: 6%;
+    margin-top: 5%;
+    transition: all 0.5s;
+}
+.num-mail:hover{
+    border-color: #1877f2;
+    transform: scale(1.04);
+}
+ .pass{
+    width: 85%;
+    height:10%;
+    border-radius:5px;
+    margin-left: 6%;
+    transition: all 0.5s;
+ }
+ .pass:hover{
+        border-color: #1877f2;
+        transform: scale(1.04);
+ }
+
+.login{
+    background-color:#1877f2;
+    color: white;
+    border-color:#1877f2;
+    border-radius: 5px;
+    width: 260px;
+    height: 11%;
+    margin-left: 20px;
+}
+.frget-pass{
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 120%;
+}
+.new-acc{
+    border-radius: 3px;
+    border-color: green;
+    margin-left: 75px;
+    margin-right: 5px;
+    color: white;
+    background-color: green;
+    height: 30px;
+    width: 140px;
+}
+footer{
+    background-color: whitesmoke;
+    height: 200px;
+    width: 100%;
+    align-content: center;
+    left: 20px;
+    align-items: end;
+    margin-top: 12%;
+}
+#lorem{
+    opacity:100%;
+    margin-left: 20%;
+    font-family:sans-serif;
+    font-size: small;
+    font-weight:1px;
+}
